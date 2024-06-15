@@ -1,3 +1,8 @@
+### .zshrc
+# created by : R4yL
+# version : 1.0
+# date : 16/06/24
+
 # Run TMUX
 if [ -z "$TMUX" ] && [ -n "$PS1" ]; then
 	tmux
@@ -55,5 +60,6 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # Alias
 alias ls='ls --color'
+alias la='ls -a'
 alias lla='ls -la'
 alias c='clear'
