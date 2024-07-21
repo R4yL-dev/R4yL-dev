@@ -59,6 +59,10 @@ setopt hist_find_no_dups
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
+# Eport
+export WINE="/usr/bin/wine"
+export WINETRICKS="/usr/bin/winetricks"
+
 # Alias
 alias ls='ls --color'
 alias la='ls -a'
