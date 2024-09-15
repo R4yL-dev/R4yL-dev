@@ -62,6 +62,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 # Eport
 export WINE="/usr/bin/wine"
 export WINETRICKS="/usr/bin/winetricks"
+export BAT_THEME="Dracula"
 
 # Alias
 alias ls='ls --color'
